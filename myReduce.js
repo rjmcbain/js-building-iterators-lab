@@ -3,7 +3,14 @@
 
 function myReduce(arr, callback) {
 
-//  CODE INSIDE HERE   //
+var x = 0;
+var reduceValue;
+
+if
+
+for (var i = 0; i < arr.length; i++){
+	callback (arr[i], i , arr);
+	}
 
 }
 
