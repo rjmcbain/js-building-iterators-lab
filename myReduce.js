@@ -3,10 +3,12 @@
 
 function myReduce(arr, callback) {
 
-var x = 0;
-var reduceValue;
+var i = 0;
+  var previousValue;
 
-if
+if(typeof(initialValue) == "undefined") {
+    i++;
+    previousValue = arr[0];}
 
 for (var i = 0; i < arr.length; i++){
 	callback (arr[i], i , arr);
